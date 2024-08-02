@@ -6,6 +6,12 @@
     background-color: azure;
     padding: 1.7%;
 }
+.margem{
+    margin: 2%;
+    background-color: #ffff;
+    position: fixed;
+    right: auto;
+}
 body{
     background: linear-gradient(to right, #B43F3F,#173B45,#FF8225);
 }
