@@ -5,12 +5,19 @@
 @import url("styles/contato.css");
 @import url("styles/rodapé.css");
 
-
+:root{
+    --cor-de-fundo:  #EBECEE;
+    --branco:  #FFFFFF;
+    --laranja:  #FECD2F;
+    
 .cabeçalho{
     background-color: var(--branco);
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
+
 
 .container{
     display: flex;
@@ -27,4 +34,13 @@
     display: inline-block;          
     background-repeat: no-repeat;
     background-position: center;
+}
+.lista-menu{
+    display: none;
+    position:absolute;
+    top: 100%;
+}
+
+.container__botao:checked~.lista-menu{
+    display: block;
 }
