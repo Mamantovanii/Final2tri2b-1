@@ -9,7 +9,7 @@
     --cor-de-fundo:  #EBECEE;
     --branco:  #FFFFFF;
     --laranja:  #FECD2F;
-    
+}
 .cabeçalho{
     background-color: var(--branco);
     display: flex;
